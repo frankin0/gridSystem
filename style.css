@@ -1,101 +1,0 @@
-/* * Not eliminate, modify these lines.  * Eliminates one of the boxes language not belonging to your knowledge. *					----------------------- * Non eliminare, modificare queste linee.  * Elimina una delle caselle lingua non appartenenti alla vostra conoscenza. * * Material Design UiMaterial * Copyright 2015-2016 | espoweb.com - Francesco Esposito * espoweb.com di francesco esposito saverio è distribuito con Licenza Creative Commons Attribuzione - Non commerciale - Non opere derivate 4.0 Internazionale. * Based on a work at http://espoweb.com/demo/all/framework.css . * Permessi ulteriori rispetto alle finalità della presente licenza possono essere disponibili presso http://espoweb.com/?a=licenze. * Licensed by creativecommons */
-
-/* Reset */
-@import url("../all/framework.css");
-
-/* Font */
-@import url(https://fonts.googleapis.com/css?family=Raleway:800,700,600,500,400,300,200,100);
-
-@font-face {
-    font-family: EspoWeb;
-    src: url(http://espoweb.com/theme/basic/font/Nonchalance_Regular.ttf);
-}
-
-*{
-	font: 400 18px/30px "EspoWeb", sans-serif;
-    font-size: 15px;
-    line-height: 1.5;
-}
-body{
-	background: rgb(52, 73, 94);
-}
-a{
-	text-decoration: none;
-}
-a:hover{
-	text-decoration: underline;
-}
-.cont_header h1{
-    font-size: 110px;
-    text-align: center;
-    margin: 20px auto;
-    margin-top: 50px;
-    line-height: 86px;
-    color: #fff;
-}
-.cont_header h3{
-    font-weight: 200;
-    text-align: center;
-	color: #fff;
-	padding-bottom: 50px;
-}
-.contents{
-	margin-top: 20px;
-	margin: 50px auto;
-    min-height: 50px;
-}
-
-.contents div:nth-child(odd) {
-    background: rgba(0, 0, 0, 0.1);
-}
-.contents div:nth-child(even) {
-    background: rgb(40, 57, 74);
-}
-[class*="div-"] {
-    padding: 10px;
-    text-align: center;
-	color: #fff;
-}
-.codeControl{
-	border: solid 1px #1A2835;
-    font-size: 12px;
-    color: #fff;
-    background: rgb(40, 57, 74);
-    margin: 0px auto;
-	margin-bottom: 20px;
-    padding: 0px 40px;
-}
-xmp{
-	font-size: 12px;
-    font-family: arial;
-}
-#lt, #gt{
-	color: #fff;
-}
-#dv{
-	color: #EC3030;
-}
-#cs{
-	color: #DC8529;
-}
-hr{
-    border: 1px solid rgba(40, 57, 74, 0.26);
-    margin: 0px auto;
-	width: 1160px;
-	margin-top: 50px;
-}
-
-@media (min-width: 979px) and (max-width: 1140px) {
-	hr{
-		width: 90%;
-	}	
-}
-
-@media (min-width: 360px) and (max-width: 979px) {
-	.cont_header h1{
-		font-size: 35px;
-	}
-	hr{
-		width: 90%;
-	}
-}
