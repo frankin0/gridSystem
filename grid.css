@@ -1,0 +1,127 @@
+/* * Not eliminate, modify these lines.  * Eliminates one of the boxes language not belonging to your knowledge. *					----------------------- * Non eliminare, modificare queste linee.  * Elimina una delle caselle lingua non appartenenti alla vostra conoscenza. * * Material Design UiMaterial * Copyright 2015-2016 | espoweb.com - Francesco Esposito * espoweb.com di francesco esposito saverio è distribuito con Licenza Creative Commons Attribuzione - Non commerciale - Non opere derivate 4.0 Internazionale. * Based on a work at http://espoweb.com/demo/uiMaterial/grid.css . * Permessi ulteriori rispetto alle finalità della presente licenza possono essere disponibili presso http://espoweb.com/?a=licenze. * Licensed by creativecommons */
+
+*{
+	margin: 0px; padding: 0px;
+}
+
+/* - Container framework - */
+.contents{
+	width: 1160px;
+	margin-right: auto;
+	margin-left: auto;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.contents-max{
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.contents-min{
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Grid */
+.div-1,.div-10,.div-11,.div-12,.div-2,.div-3,.div-4,.div-5,.div-6,.div-7,.div-8,.div-9{
+	position: relative;
+	padding-right: 10px; 
+	min-height: 1px;
+	padding-left: 10px; 
+}
+
+.div-1,.div-10,.div-11,.div-12,.div-2,.div-3,.div-4,.div-5,.div-6,.div-7,.div-8,.div-9{
+	float:left;
+}
+.div-1{
+	width:8.33333333%
+}
+.div-2{
+	width:16.66666667%
+}
+.div-3{
+	width:25%
+}
+.div-4{
+	width:33.33333333%
+}
+.div-5{
+	width:41.66666667%
+}
+.div-6{
+	width:50%
+}
+.div-7{
+	width:58.33333333%
+}
+.div-8{
+	width:66.66666667%
+}
+.div-9{
+	width:75%
+}
+.div-10{
+	width:83.33333333%
+}
+.div-11{
+	width:91.66666667%
+}
+.div-12{
+	width: 100%;
+}
+
+@media (min-width: 979px) and (max-width: 1140px) {
+	/* - Container framework - */
+	.contents, .contents-min{
+		width: 90%;
+		margin-right: auto;
+		margin-left: auto;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	.contents-max{
+		width: 100%;
+		margin-right: auto;
+		margin-left: auto;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+}
+@media (min-width: 360px) and (max-width: 979px) {
+	/* - Container framework - */
+	.contents, .contents-min{
+		width: 90%;
+		margin-right: auto;
+		margin-left: auto;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	.contents-max{
+		width: 100%;
+		margin-right: auto;
+		margin-left: auto;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	[class*="div-"] {
+	  float: none;
+	  width: 100%;
+	}
+}
