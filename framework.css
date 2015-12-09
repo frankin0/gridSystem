@@ -36,8 +36,9 @@ time, mark, audio, video {
 .contents-max:after, .contents-min:before, .contents-min:after, 
 .row:before, .row:after{
     display: table;
-    content: "";
+    content: " ";
     line-height: 0;
+	clear: both;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
